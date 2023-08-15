@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   addButton.addEventListener("click", function() {
     if (yearDropdown.value === "") {
-      alert("Please select a year.");
+      alert("Select a year !");
       return;
     }
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       .length;
 
     if (selectedCourseCount < 1) {
-      alert("Please select at least  course options.");
+      alert("Select at least one course option !");
       return;
     }
 
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   if (missingSelection) {
-    alert("Please select a grade for every course");
+    alert("Select a grade for every course !");
     return;
   }
 
