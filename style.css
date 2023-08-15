@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background: transparent;
+  list-style: none;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+body{
+  background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-attachment: fixed;
+  height: 100vh;
+}
+.cgpa-full{
+  padding: 10px;
+}
+.cgpa-heading{
+  
+}
+.cgpa-heading h2{
+  text-align: center;
+  border-bottom: 1.5px solid #fff ;
+  margin-bottom: 4px;
+}
+.cgpa-heading h3{
+  display: inline-block;
+  border-bottom: 1.2px solid #fff;
+  margin-bottom: 5px;
+}
+.courses-title{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.creditInput{
+  flex: 0 0 30%;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.courseNumber{
+  
+}
+.courseNumberAll{
+  font-size: 15px;
+  width: 100%;
+  padding: 3px 10px;
+  border: 1.3px solid #fff;
+  margin-top: 4px;
+  border-radius: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.title-second{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.3px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.yearTitle h3{
+  display: inline-block;
+  border-bottom: 1.3px solid #fff;
+  margin-bottom: 2px;
+}
+.honours-year{
+  width: 90%;
+}
+.firstButton{
+  display: flex;
+  align-items: flex-end;
+}
+.firstButton button{
+  border: 1.3px solid #fff;
+  font-size: 18px;
+  padding: 5px 35px;
+  border-radius: 20px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+  background-color: rgb(105, 191, 248);
+  transition: all 0.3s ease;
+}
+.info-show{
+  text-align: center;
+}
+.info-show ul{
+  
+}
+.info-show li{
+  margin: 10px 0;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 34% 30% 36%;
+}
+.info-show li select{
+  font-size: 16px;
+  width: 100%;
+  padding: 3px 10px;
+  border: 1.3px solid #fff;
+  border-radius: 20px;
+}
+.info-show li h3{
+  display: flex;
+  align-items: center;
+}
+#calculateBtn{
+  border: 1.3px solid #fff;
+  font-size: 18px;
+  padding: 5px 50px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 20px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+  background-color: rgba(209, 107, 165,.4);
+  transition: all 0.3s ease;
+}
+.result-h1-div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.result-h1-div h1{
+  position: relative;
+  color: transparent;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSryUCcZW46e7vUnILzDYEJmZMYkVmlE-_eQg&usqp=CAU);
+  background-size: 250px 150px;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
